@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultLog — Local vault for your private notes, passwords & files</title>
+  <meta name="description" content="Zero cloud. Zero account. Face ID locked. Export anytime. A local-first vault for privacy-minded people.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Analytics 4 (replace G-XXXXXXXXXX in config.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
+</head>
+<body>
+  <!-- Top banner -->
+  <div class="banner" data-event="banner_seen">
+    <span>🚀 Phase 0 waitlist is open — be the first to get VaultLog.</span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" data-event="logo_click">
+        <span class="logo-icon">◆</span>
+        <span>VaultLog</span>
+      </a>
+      <nav class="nav">
+        <a href="#features" data-event="nav_click" data-label="features">Features</a>
+        <a href="#how-it-works" data-event="nav_click" data-label="how-it-works">How it works</a>
+        <a href="#pricing" data-event="nav_click" data-label="pricing">Pricing</a>
+        <a href="#faq" data-event="nav_click" data-label="faq">FAQ</a>
+      </nav>
+      <a href="#waitlist" class="btn btn-small btn-primary header-cta" data-event="cta_click" data-location="header">Join waitlist</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="badge" data-event="badge_seen">
+          <span class="badge-dot"></span>
+          Local-first privacy vault for iOS
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          Your private notes, passwords & files — locked on your device, nowhere else.
+        </h1>
+        <p class="hero-subtitle">
+          VaultLog is a zero-cloud, zero-account vault. No servers. No signups. Just Face ID, your device, and the freedom to export anytime.
+        </p>
+        <div class="hero-ctas">
+          <a href="#waitlist" class="btn btn-large btn-primary" data-event="cta_click" data-location="hero_primary">
+            Get early access
+          </a>
+          <a href="#how-it-works" class="btn btn-large btn-secondary" data-event="cta_click" data-location="hero_secondary">
+            See how it works
+          </a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatars">
+            <span class="avatar">A</span>
+            <span class="avatar">B</span>
+            <span class="avatar">C</span>
+            <span class="avatar">D</span>
+          </div>
+          <p><strong id="waitlist-count">0</strong> privacy-conscious people joined the waitlist</p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup" data-event="phone_seen">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="vault-header">
+              <span class="vault-icon">◆</span>
+              <span>VaultLog</span>
+            </div>
+            <div class="vault-card">
+              <div class="vault-card-icon">🔒</div>
+              <div class="vault-card-title">Passport scan</div>
+              <div class="vault-card-meta">Locked • 2.4 MB</div>
+            </div>
+            <div class="vault-card">
+              <div class="vault-card-icon">📝</div>
+              <div class="vault-card-title">Seed phrase backup</div>
+              <div class="vault-card-meta">Encrypted note</div>
+            </div>
+            <div class="vault-card">
+              <div class="vault-card-icon">🖼️</div>
+              <div class="vault-card-title">Receipt_2026.pdf</div>
+              <div class="vault-card-meta">PDF • 1.1 MB</div>
+            </div>
+            <div class="vault-faceid">
+              <span>🔐</span>
+              <span>Unlock with Face ID</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem / Promise -->
+  <section class="section section-dark" id="problem">
+    <div class="container">
+      <div class="section-header">
+        <h2>Your data doesn't belong in someone else's cloud.</h2>
+        <p>Every note, password, and file you upload to a synced service is a target. VaultLog keeps it local.</p>
+      </div>
+      <div class="comparison">
+        <div class="comparison-card comparison-bad">
+          <h3>Cloud-based vaults</h3>
+          <ul>
+            <li>Data synced to company servers</li>
+            <li>Requires account + password</li>
+            <li>Subject to breaches & subpoenas</li>
+            <li>Hard to fully export or leave</li>
+          </ul>
+        </div>
+        <div class="comparison-card comparison-good">
+          <h3>VaultLog</h3>
+          <ul>
+            <li>Everything stays on your iPhone</li>
+            <li>No account, no login</li>
+            <li>Biometric lock only you can open</li>
+            <li>Export to files anytime</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Features</span>
+        <h2>Built for people who take privacy seriously.</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-event="feature_seen" data-feature="zero_cloud">
+          <div class="feature-icon">☁️🚫</div>
+          <h3>Zero cloud</h3>
+          <p>No syncing, no servers, no cloud backup. Your data never leaves your device unless you choose to export it.</p>
+        </div>
+        <div class="feature-card" data-event="feature_seen" data-feature="zero_account">
+          <div class="feature-icon">👤🚫</div>
+          <h3>Zero account</h3>
+          <p>No email, no password, no signup. Open the app and start locking things away instantly.</p>
+        </div>
+        <div class="feature-card" data-event="feature_seen" data-feature="face_id">
+          <div class="feature-icon">🔐</div>
+          <h3>Face ID / Touch ID</h3>
+          <p>Unlock with biometrics. Even if someone has your phone, they can't open VaultLog without your face or fingerprint.</p>
+        </div>
+        <div class="feature-card" data-event="feature_seen" data-feature="export">
+          <div class="feature-icon">📤</div>
+          <h3>Export anytime</h3>
+          <p>Your data is yours. Export notes, passwords, and files to standard formats whenever you want.</p>
+        </div>
+        <div class="feature-card" data-event="feature_seen" data-feature="multiple_types">
+          <div class="feature-icon">🗂️</div>
+          <h3>Notes, passwords & files</h3>
+          <p>One vault for everything sensitive. Store text notes, credentials, PDFs, scans, and photos securely.</p>
+        </div>
+        <div class="feature-card" data-event="feature_seen" data-feature="offline">
+          <div class="feature-icon">✈️</div>
+          <h3>Works offline</h3>
+          <p>Traveling or on airplane mode? VaultLog works perfectly without internet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section-muted" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How it works</span>
+        <h2>Locked down in three taps.</h2>
+      </div>
+      <div class="steps">
+        <div class="step" data-event="step_seen" data-step="1">
+          <div class="step-number">1</div>
+          <h3>Open the app</h3>
+          <p>Download VaultLog. No onboarding, no account creation.</p>
+        </div>
+        <div class="step" data-event="step_seen" data-step="2">
+          <div class="step-number">2</div>
+          <h3>Add what matters</h3>
+          <p>Notes, passwords, files, photos — all encrypted locally on your device.</p>
+        </div>
+        <div class="step" data-event="step_seen" data-step="3">
+          <div class="step-number">3</div>
+          <h3>Unlock with Face ID</h3>
+          <p>Your biometrics are the only key. Export anytime if you want to leave.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use cases -->
+  <section class="section" id="use-cases">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Use cases</span>
+        <h2>Who is VaultLog for?</h2>
+      </div>
+      <div class="usecases-grid">
+        <div class="usecase-card" data-event="usecase_seen" data-usecase="digital_nomad">
+          <h3>🌍 Digital nomads</h3>
+          <p>Keep passport scans, visas, and travel documents offline and biometrically locked while crossing borders.</p>
+        </div>
+        <div class="usecase-card" data-event="usecase_seen" data-usecase="crypto">
+          <h3>₿ Crypto holders</h3>
+          <p>Store seed phrases and wallet backup notes locally, never in a cloud note app.</p>
+        </div>
+        <div class="usecase-card" data-event="usecase_seen" data-usecase="privacy_advocate">
+          <h3>🔒 Privacy advocates</h3>
+          <p>Reduce your cloud footprint. One less service that can be breached, sold, or subpoenaed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section-dark" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Pricing</span>
+        <h2>Simple, private pricing.</h2>
+        <p>14-day free trial. No account required to try.</p>
+      </div>
+      <div class="pricing-toggle" data-event="pricing_toggle_seen">
+        <button class="toggle-btn active" data-plan="yearly" data-event="pricing_toggle" data-plan-select="yearly">Yearly</button>
+        <button class="toggle-btn" data-plan="monthly" data-event="pricing_toggle" data-plan-select="monthly">Monthly</button>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card pricing-highlight" data-event="pricing_card_seen" data-plan-card="yearly">
+          <div class="pricing-badge">Best value</div>
+          <h3>Yearly</h3>
+          <div class="pricing-price">
+            <span class="currency">$</span>
+            <span class="amount" id="price-yearly">35.99</span>
+            <span class="period">/year</span>
+          </div>
+          <p class="pricing-equivalent">That's $3.00/month. Cancel anytime.</p>
+          <ul class="pricing-features">
+            <li>Unlimited notes & passwords</li>
+            <li>Unlimited file storage</li>
+            <li>Face ID / Touch ID unlock</li>
+            <li>Export to files</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#waitlist" class="btn btn-primary btn-block" data-event="cta_click" data-location="pricing_yearly">Join waitlist</a>
+        </div>
+        <div class="pricing-card" data-event="pricing_card_seen" data-plan-card="monthly">
+          <h3>Monthly</h3>
+          <div class="pricing-price">
+            <span class="currency">$</span>
+            <span class="amount" id="price-monthly">8.99</span>
+            <span class="period">/month</span>
+          </div>
+          <p class="pricing-equivalent">Flexible. Cancel anytime.</p>
+          <ul class="pricing-features">
+            <li>Unlimited notes & passwords</li>
+            <li>Unlimited file storage</li>
+            <li>Face ID / Touch ID unlock</li>
+            <li>Export to files</li>
+          </ul>
+          <a href="#waitlist" class="btn btn-secondary btn-block" data-event="cta_click" data-location="pricing_monthly">Join waitlist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist -->
+  <section class="section section-accent" id="waitlist">
+    <div class="container waitlist-inner">
+      <div class="waitlist-content">
+        <span class="section-label">Early access</span>
+        <h2>Be first to lock down your data.</h2>
+        <p>Join the VaultLog waitlist. We'll email you when early access is ready — no spam, no sharing, one click to unsubscribe.</p>
+        <form class="waitlist-form" id="waitlist-form" data-event="form_start">
+          <div class="form-row">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required autocomplete="email" class="form-input" data-event="email_input">
+            <button type="submit" class="btn btn-primary btn-submit" data-event="form_submit_click">Join waitlist</button>
+          </div>
+          <p class="form-note">
+            <label class="checkbox-label">
+              <input type="checkbox" name="updates" value="yes" checked data-event="updates_toggle">
+              <span>Notify me about beta access and launch updates.</span>
+            </label>
+          </p>
+          <p class="form-privacy">We won't sell or share your email. <a href="privacy.html" data-event="privacy_click">Privacy policy</a>.</p>
+          <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2>Questions? Answered.</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" data-event="faq_expand" data-faq="cloud">
+          <summary>Is my data stored in the cloud?</summary>
+          <p>No. VaultLog is local-first. Your data stays on your device and is not synced to our servers or any third-party cloud.</p>
+        </details>
+        <details class="faq-item" data-event="faq_expand" data-faq="account">
+          <summary>Do I need to create an account?</summary>
+          <p>No. There are no accounts, no passwords, and no email signups. Just your device and Face ID / Touch ID.</p>
+        </details>
+        <details class="faq-item" data-event="faq_expand" data-faq="backup">
+          <summary>What if I lose my phone?</summary>
+          <p>Because VaultLog is local-first, we don't have a backup copy. We recommend exporting your vault to your personal backup system (e.g., encrypted local drive) periodically.</p>
+        </details>
+        <details class="faq-item" data-event="faq_expand" data-faq="export">
+          <summary>Can I export my data?</summary>
+          <p>Yes. You can export notes, passwords, and files to standard formats at any time. Your data is always yours.</p>
+        </details>
+        <details class="faq-item" data-event="faq_expand" data-faq="trial">
+          <summary>Is there a free trial?</summary>
+          <p>Yes. 14-day free trial. No payment required to start.</p>
+        </details>
+        <details class="faq-item" data-event="faq_expand" data-faq="platform">
+          <summary>What platforms are supported?</summary>
+          <p>VaultLog will launch on iOS 16+. iPad and macOS support are on the roadmap.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo" data-event="footer_logo_click">
+          <span class="logo-icon">◆</span>
+          <span>VaultLog</span>
+        </a>
+        <p>Local-first privacy vault. Zero cloud. Zero account.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html" data-event="footer_link_click" data-label="privacy">Privacy</a>
+        <a href="#features" data-event="footer_link_click" data-label="features">Features</a>
+        <a href="#pricing" data-event="footer_link_click" data-label="pricing">Pricing</a>
+        <a href="#waitlist" data-event="footer_link_click" data-label="waitlist">Waitlist</a>
+      </div>
+      <p class="footer-copy">© 2026 VaultLog. Built for privacy.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="tracker.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
