@@ -21,16 +21,16 @@ window.VAULTLOG_CONFIG = {
   // The page will randomly pick one on load and track which variant converts.
   HEADLINE_VARIANTS: [
     {
-      id: 'v1_local',
-      text: 'Your private notes, passwords & files — locked on your device, nowhere else.'
+      id: 'v1_thoughts',
+      text: 'Your thoughts, locked to your device.'
     },
     {
       id: 'v2_nocloud',
-      text: 'A vault with zero cloud, zero account, and zero way for us to see your data.'
+      text: 'No-cloud private notes. Face ID. Export anytime.'
     },
     {
-      id: 'v3_export',
-      text: 'Lock your sensitive notes and files on your iPhone. Export anytime.'
+      id: 'v3_iphone',
+      text: 'What happens on your iPhone stays on your iPhone.'
     }
   ],
 
@@ -39,7 +39,7 @@ window.VAULTLOG_CONFIG = {
 
   // Currency and pricing
   PRICING: {
-    yearly: 35.99,
+    yearly: 29.99,
     monthly: 8.99,
     currency: '$'
   }
